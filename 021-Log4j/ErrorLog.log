@@ -1,0 +1,9 @@
+2015-05-30 04:49:48,266   INFO [main] com.infy.log4j.UserInterface [displayArrayValues] - The maximum array index is always one less than length of the array
+2015-05-30 04:49:48,296   WARN [main] com.infy.log4j.UserInterface [displayArrayValues] - The array index value has reached maximum value of (array_length-1)
+2015-05-30 04:50:23,950   INFO [main] com.infy.log4j.UserInterface [displayArrayValues] - The maximum array index is always one less than length of the array
+2015-05-30 04:50:23,950   WARN [main] com.infy.log4j.UserInterface [displayArrayValues] - The array index value has reached maximum value of (array_length-1)
+2015-05-30 04:50:23,960  ERROR [main] com.infy.log4j.UserInterface [displayArrayValues] - 5
+java.lang.ArrayIndexOutOfBoundsException: 5
+	at com.infy.log4j.UserInterface.displayArrayValues(UserInterface.java:45)
+	at com.infy.log4j.UserInterface.main(UserInterface.java:17)
+2015-05-30 04:50:23,960  FATAL [main] com.infy.log4j.UserInterface [displayArrayValues] - The method execution was unsuccessful, program terminated
